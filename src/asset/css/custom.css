@@ -1,0 +1,153 @@
+.learnMoreBtn {
+   background-color: #FF5500;
+   border-radius: 50px;
+   padding-top: 7px;
+   padding-right: 57px;
+   padding-left: 57px;
+   font-size: 24px;
+   font-weight: 700;
+   padding-bottom: 7px;
+}
+
+.aboutIMG {
+   width: 100%;
+   height: 100%;
+}
+
+@media only screen and (max-width: 2767px) {
+   #nav-wrap>button {
+      display: none !important;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+
+   #home .banner-text {
+      padding-top: 100px;
+   }
+
+   .speadTitle,
+   .solutionTitle {
+      text-align: left;
+      font-size: 30px !important;
+   }
+
+   .learnMoreBtn {
+      width: 100%;
+   }
+
+   header {
+      min-height: 900px !important;
+   }
+
+   .responsive-headline {
+      padding: 10px;
+      font-size: 30px !important;
+   }
+
+   #nav-wrap {
+      background: linear-gradient(180deg, #7700FF 0%, rgba(119, 0, 255, 0) 100%) !important;
+   }
+
+   #nav-wrap>a {
+      background: transparent;
+      color: #FF5500 !important;
+      float: left !important;
+      margin-left: 13%;
+   }
+
+   #nav-wrap>button {
+      display: block !important;
+      background-color: transparent;
+      color: #FF5500 !important;
+      font-size: 27px;
+      font-weight: 700;
+      margin: 1%;
+      margin-left: 75%;
+   }
+
+   .homeDetailContainer>p {
+      font-size: 20px;
+   }
+
+   .aboutIMG {
+      transform: rotate(270deg);
+   }
+
+   td,
+   th {
+      color: white;
+      border: 3px solid #00FFAE;
+      text-align: left !important;
+      font-size: 15px !important;
+      font-weight: 700 !important;
+   }
+
+   .faqTitle {
+      font-size: 30px !important;
+      padding-bottom: 3px !important;
+   }
+
+   #portfolio {
+      padding: 30px !important;
+   }
+
+   #contact {
+      background: black !important;
+      padding: 25px !important;
+   }
+
+   #contact>div>h1 {
+      font-size: 30px !important;
+   }
+
+   .submitBtn {
+      width: 100%;
+   }
+
+}
+
+/*Table*/
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+td,
+th {
+   color: white;
+   border: 3px solid #00FFAE;
+   text-align: center;
+   font-size: 25px;
+   font-weight: 700;
+   padding: 4%;
+}
+
+tr:nth-child(even) {
+   background-color: transparent;
+}
+
+.emailInput,
+.nameInput {
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   color: white;
+   outline: none;
+   border: none;
+   background-color: transparent;
+   border-bottom: 3px solid #00FFAE;
+}
+
+.submitBtn {
+   margin-top: 7%;
+   background-color: #FF5500;
+   color: white;
+   font-weight: 700;
+   font-size: 20px;
+   border-radius: 50px;
+   padding-left: 120px;
+   padding-right: 120px;
+}
